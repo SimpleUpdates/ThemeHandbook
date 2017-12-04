@@ -65,6 +65,7 @@ permalink: /external-resources/
 - [Colour Contrast Check](https://snook.ca/technical/colour_contrast/colour.html#fg=CFFF33,bg=333333)
 - [Coolors](https://coolors.co/9ac4f8-99edcc-cb958e-e36588-9a275a)
 - [Hex Naw](https://hexnaw.com/)
+- [HTML Color Codes](http://htmlcolorcodes.com/) - "Get HTML color codes, Hex color codes, RGB and HSL values with our color picker, color chart and HTML color names. Let's go!"
 - [Khroma](http://khroma.co/) - "The AI color tool for designers. Discover, search, & save color combinations you'll love."
 - [Palettable](http://www.palettable.io/)
 - [Paletton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)

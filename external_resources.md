@@ -195,6 +195,7 @@ permalink: /external-resources/
 - [Recordit](http://recordit.co/)
 - [Skitch](https://evernote.com/products/skitch) - "Get your point across with fewer words using annotation, shapes and sketches, so that your ideas become reality faster."
 - [Snaggy](https://snag.gy/)
+- [typoscan](http://typoscan.com/) - "typoscan is a designer tool which can help you to scan typography of your favorite website"
 
 ## Usability
 

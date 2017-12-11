@@ -187,6 +187,7 @@ permalink: /external-resources/
 
 ## Tools
 
+- [Browsersync](https://www.browsersync.io/) - "With each web page, device and browser, testing time grows exponentially. From live reloads to URL pushing, form replication to click mirroring, Browsersync cuts out repetitive manual tasks. It’s like an extra pair of hands. Customise an array of sync settings from the UI or command line to create a personalised test environment."
 - [Chrome device mode](https://developers.google.com/web/tools/chrome-devtools/device-mode/emulate-mobile-viewports)
 - [Chrome full-page screenshots](https://developers.google.com/web/updates/2017/04/devtools-release-notes#screenshots)
 - [Chrome network panel and emulation](https://developers.google.com/web/tools/chrome-devtools/network-performance/)

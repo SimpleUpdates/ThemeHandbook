@@ -191,9 +191,12 @@ permalink: /external-resources/
 - [Chrome device mode](https://developers.google.com/web/tools/chrome-devtools/device-mode/emulate-mobile-viewports)
 - [Chrome full-page screenshots](https://developers.google.com/web/updates/2017/04/devtools-release-notes#screenshots)
 - [Chrome network panel and emulation](https://developers.google.com/web/tools/chrome-devtools/network-performance/)
+- [Codepen](https://codepen.io/#) - "👋 CodePen is a social development environment. At it's heart, it allows you to write code in the browser, and see the results of it as you build. A useful and liberating tool for developers of any skill, and particularly empowering for people learning to code. We focus primarily on front-end languages like HTML, CSS, JavaScript, and preprocessing syntaxes that turn into those things."
 - [Diffchecker](https://www.diffchecker.com/)
 - [Emmet Re:view](https://chrome.google.com/webstore/detail/emmet-review/epejoicbhllgiimigokgjdoijnpaphdp)
+- [JSFiddle](https://jsfiddle.net/)
 - [Recordit](http://recordit.co/)
+- [Regexr](http://regexr.com/) - "RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp)."
 - [Skitch](https://evernote.com/products/skitch) - "Get your point across with fewer words using annotation, shapes and sketches, so that your ideas become reality faster."
 - [Snaggy](https://snag.gy/)
 - [typoscan](http://typoscan.com/) - "typoscan is a designer tool which can help you to scan typography of your favorite website"
@@ -222,6 +225,5 @@ permalink: /external-resources/
 - [Can I use](http://caniuse.com/)
 - [Free UX Ebooks](https://www.uxpin.com/studio/ebooks/) by Studio by UXPin - "Thoughtful content on mobile & web prototyping, wireframing, mockups, usability testing, project management, design process & more."
 - [Golden Ratio Calculator](https://www.calculatorsoup.com/calculators/math/goldenratio.php)
-- [Regexr](http://regexr.com/) - "RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp)."
 - [Sidebar](https://sidebar.io/)
 - [StackOverflow](https://stackoverflow.com/)

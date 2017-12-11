@@ -29,6 +29,18 @@ When testing a theme manually, here are some things to check.
 - Are emails linked using `mailto:` and phone numbers linked using `tel:`?
 - Are small versions of large images served on mobile?
 
+## Testing in Multiple Browsers Using Browsersync
+
+[Browsersync](https://www.browsersync.io/) allows you to sync scrolling, clicking, live reloading, etc, between multiple windows and browsers. It makes testing multiple screen widths and browsers much simpler.
+
+To use Browsersync, after installing, navigate to `SUFramework/cache/` in Terminal and run the following command:
+
+```
+browser-sync start --proxy "localhost:8080" --files "css/**/*.css" "twig/**/*.php"
+```
+
+Then open `http://localhost:3000` in as many browsers, windows, or devices on the same network as you wish to test in.
+
 ## See Also
 
 - [External Resources](external_resources.md)

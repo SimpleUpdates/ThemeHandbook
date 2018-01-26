@@ -187,6 +187,7 @@ permalink: /external-resources/
 
 ### Sketch Plugins
 
+- [Craft by InVision](https://www.invisionapp.com/craft) - "Craft is a suite of plugins to let you design with real data in mind. Manage them via the new Craft Manager for incredibly easy updating."
 - [Launchpad for Sketch](https://animaapp.github.io/Auto-Layout/) - "Design responsive screens in Sketch and publish to HTML." Previously known as Auto Layout by Animaa.
 
 ## Tools

@@ -185,6 +185,10 @@ permalink: /external-resources/
 - [Sketch Foundation Kit](https://github.com/stephenway/sketch-foundation-kit)
 - [Web and Mobile UI Mockup Kit for Sketch](http://sketchuikit.com/)
 
+### Sketch Plugins
+
+- [Launchpad for Sketch](https://animaapp.github.io/Auto-Layout/) - "Design responsive screens in Sketch and publish to HTML." Previously known as Auto Layout by Animaa.
+
 ## Tools
 
 - [Browsersync](https://www.browsersync.io/) - "With each web page, device and browser, testing time grows exponentially. From live reloads to URL pushing, form replication to click mirroring, Browsersync cuts out repetitive manual tasks. It’s like an extra pair of hands. Customise an array of sync settings from the UI or command line to create a personalised test environment."

@@ -92,6 +92,26 @@ Item                 | Description
 `su.site.url`        | Website's primary URL
 `su.site.zip`        |
 
+## su.social
+
+Returns an array of social links.
+
+Item          | Description
+--------------|----------------------------
+`social.url`  | Social link url
+`social.name` | Social link label
+`social.icon` | Social link icon identifier
+
+Example usage:
+
+```twig
+<ul>
+{% for link in su.social %}
+  <li><a href="{{ link.url }}" target="_blank">{{ getIcon( link.icon ) }} {{ link.name }}</a></li>
+{% endfor %}
+</ul>
+```
+
 ## su.theme
 
 Item                                     | Description

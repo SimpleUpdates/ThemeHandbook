@@ -15,8 +15,8 @@ When referring to images via `@config-*`, the variable must be used in the conte
 
 ```less
 .background {
-		.theme-image-ratio( @config-bannerBg; 2000px; 460px; );
-		background-size: cover;
-		background-position: 50%;
+	  .theme-image-ratio( @config-bannerBg; 2000px; 460px; );
+	  background-size: cover;
+	  background-position: 50%;
 }
 ```

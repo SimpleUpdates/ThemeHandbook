@@ -43,6 +43,8 @@ Item                                        | Description
 `su.editable.region( (string) identifier )` | Allows inline editing of a custom content region
 `su.editable.title`                         | Allows inline editing of page title
 
+Editable region identifer strings are most comonly named `custom1`, `custom2`, `custom3`, etc. `custom1` almost always coincides with a layout's sidebar. Whenever possible, stick to this naming convention so that a user's page content remains visible when they switch to a layout with a sidebar in another theme.
+
 ## su.page
 
 Item                      | Description

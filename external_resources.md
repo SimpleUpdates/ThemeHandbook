@@ -199,6 +199,7 @@ permalink: /external-resources/
 - [Codepen](https://codepen.io/#) - "👋 CodePen is a social development environment. At it's heart, it allows you to write code in the browser, and see the results of it as you build. A useful and liberating tool for developers of any skill, and particularly empowering for people learning to code. We focus primarily on front-end languages like HTML, CSS, JavaScript, and preprocessing syntaxes that turn into those things."
 - [Diffchecker](https://www.diffchecker.com/)
 - [Emmet Re:view](https://chrome.google.com/webstore/detail/emmet-review/epejoicbhllgiimigokgjdoijnpaphdp)
+- [ImageOptim](https://imageoptim.com/mac) - "ImageOptim makes images load faster. Removes bloated metadata. Saves disk space & bandwidth by compressing images without losing quality."
 - [JSFiddle](https://jsfiddle.net/)
 - [Recordit](http://recordit.co/)
 - [Regexr](http://regexr.com/) - "RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp)."

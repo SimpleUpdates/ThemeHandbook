@@ -94,6 +94,41 @@ Item                 | Description
 `su.site.url`        | Website's primary URL
 `su.site.zip`        |
 
+## su.site.sitemap
+
+Item                   | Description
+-----------------------|---------------------------------------------
+`su.site.sitemap`      | Array of pages
+`page.hasChildren`     | Boolean
+`page.hasParent`       | Boolean; usually only false for home page
+`page.current`         | Boolean
+`page.url`             | String
+`page.target`          | Used for anchor target attribute
+`page.navigationLabel` | Label specifically for use in navigation
+
+Example usage:
+
+```twig
+<ul>
+  {% spaceless %}
+    {% for page in sitemap %}
+      {% set hasChildren = page.hasChildren and page.hasParent %}
+      <li class="{% if page.current %}active{% endif %} {% if hasChildren %}has-children{% endif %}">
+        <a href="{{ page.url }}" target="{{ page.target }}">{{ page.navigationLabel }}</a>
+        {% if hasChildren %}
+          <ul>
+            {% for child in page.children %}
+              <li{% if child.current %} class="active"{% endif %}><a
+                    href="{{ child.url }}" target="{{ page.target }}">{{ child.navigationLabel }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  {% endspaceless %}
+</ul>
+```
+
 ## su.social
 
 Returns an array of social links.

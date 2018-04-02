@@ -130,6 +130,7 @@ permalink: /external-resources/
 - [DesignMunk](https://designmunk.com/) - "a homepage design inspiration blog focusing on showcasing and promoting inspiring new homepage and landing page designs from around the world"
 - [Good Web Design](http://www.goodweb.design/) - "The best landing pages, organized by section"
 - [httpster](https://httpster.net)
+- [Mobbin](https://mobbin.design/) - "Latest Mobile Design Patterns"
 - [One Page Love](https://onepagelove.com/)
 - [Pattern Tap](http://patterntap.com/patterntap)
 - [Pixels](https://klart.co/pixels)

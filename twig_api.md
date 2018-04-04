@@ -108,6 +108,7 @@ Item                   | Description
 
 Example usage:
 
+{% raw %}
 ```twig
 <ul>
   {% spaceless %}
@@ -128,6 +129,7 @@ Example usage:
   {% endspaceless %}
 </ul>
 ```
+{% endraw %}
 
 ## su.social
 

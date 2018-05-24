@@ -17,24 +17,36 @@ Item                   | Description
 
 ## su.collection
 
-Item                                                                   | Description
------------------------------------------------------------------------|-----------------------------------------
-`su.collection( (string) collectionId )`                               | Fetch collection
-`su.collection( "collectionId" ).find()`                               | Fetch items out of collection
-`su.collection( "collectionId" ).state("MT").find()`                   | Filter where `state` field value is "MT"
-`su.collection( "collectionId" ).state("M%").find()`                   | Filter where `state` field value starts with "M"
-`su.collection( "collectionId" ).state("M%").which("Two").find()`      | Filters are chainable
-`su.collection( "collectionId" ).state("M%").or().which("Two").find()` | Filter for this *or* that
-`su.collection( "collectionId" ).number(2, ">").find()`                | Filter using operators: `=`, `!=`, `<>`, `>`, `<`, `>=`, `<=`
-`su.collection( "collectionId" ).sort( (string) fieldId ).find()`      | Sort by specified field
-`su.collection( "collectionId" ).sort( "state", "desc" ).find()`       | Sort and specify sort direction
-`su.collection( "collectionId" ).sort( "name.last", "desc" ).find()`   | Sort by sub field
-`su.collection( "collectionId" ).randomize.find()`                     | Sort randomly
-`su.collection( "collectionId" ).state("MT").first()`                  | Fetch only first result
-`su.collection( "collectionId" ).state("MT").count()`                  | Fetch result count
-`su.collection( "collectionId" ).state("MT").limit(2).find()`          | Fetch only two results
-`su.collection( "collectionId" ).state("MT").offset(2).find()`         | Fetch third result and onward
+Item                                                                         | Description
+-----------------------------------------------------------------------------|-----------------------------------------
+`su.collection( (string) collectionId )`                                     | Fetch collection
+`su.collection( "id" ).find()`                                               | Fetch items out of collection
+`su.collection( "id" ).state("MT").find()`                                   | Filter where `state` field is "MT"
+`su.collection( "id" ).state("M%").find()`                                   | Filter where `state` field starts with "M"
+`su.collection( "id" ).state("M%").which("Two").find()`                      | Filters are chainable
+`su.collection( "id" ).state("M%").or().which("Two").find()`                 | Filter for this *or* that
+`su.collection( "id" ).number(2, ">").find()`                                | Comparison operators: `=`, `!=`, `<>`, `>`, `<`, `>=`, `<=`
+`su.collection( "id" ).sort( (string) fieldId ).find()`                      | Sort by specified field
+`su.collection( "id" ).sort( "state", "desc" ).find()`                       | Sort and specify sort direction
+`su.collection( "id" ).sort( "name.last", "desc" ).find()`                   | Sort by sub field
+`su.collection( "id" ).randomize.find()`                                     | Sort randomly
+`su.collection( "id" ).state("MT").first()`                                  | Fetch only first result
+`su.collection( "id" ).state("MT").count()`                                  | Fetch result count
+`su.collection( "id" ).state("MT").limit(2).find()`                          | Fetch only two results
+`su.collection( "id" ).state("MT").offset(2).find()`                         | Fetch third result and onward
+`su.collection( "id" ).activationDate( "now"|date( 'Y-m-d' ), "<=" ).find()` | Compare with a date
+`su.collection( "id" ).deactivationDate( "", "=" ).find()`                   | Assert null date
 
+Example usage:
+
+{% raw %}
+```twig
+{% set button_items = su.collection( "gumwoodButtons" )
+		.activationDate( "now"|date( 'Y-m-d' ), "<=" )
+		.deactivationDate( "now"|date( 'Y-m-d' ), ">" ).or().deactivationDate( "", "=" )
+		.find() %}
+```
+{% endraw %}
 
 ## su.editable
 

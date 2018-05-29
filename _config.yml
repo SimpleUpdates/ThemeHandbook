@@ -11,11 +11,12 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 theme: jekyll-theme-primer
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
 
 github:
   private: false

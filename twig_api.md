@@ -36,6 +36,7 @@ Item                                                                          | 
 `su.collection( "id" ).state("MT").offset(2).find()`                          | Fetch third result and onward
 `su.collection( "id" ).activationDate( "now"\|date( 'Y-m-d' ), "<=" ).find()` | Compare with a date
 `su.collection( "id" ).deactivationDate( "", "=" ).find()`                    | Assert null date
+`su.page.urlForCollectionItem( item )`                                        | Retrieve the URL for an item's detail page
 
 Example usage:
 
@@ -59,26 +60,27 @@ Editable region identifer strings are most comonly named `custom1`, `custom2`, `
 
 ## su.page
 
-Item                      | Description
---------------------------|-------------------------------         
-`su.page("/url")`         | Get page by path
-`su.page.authors`         |
-`su.page.breadcrumbs`     |
-`su.page.children`        | Get a page's children
-`su.page.children(id)`    | Get the children of a specific page. Inspect the table row in the admin page list to get the id.
-`su.page.content`         | Allows for things like {% raw %}`{{ child.description ?: child.content\|striptags\|pretty_truncate(200) }}`{% endraw %}
-`su.page.description`     |
-`su.page.featuredImage`   | `.fit(x,y)`, `.fill(x,y)`, `.ratio(x,y)`
-`su.page.navigationLabel` |
-`su.page.parent`          | Parent of current page
-`su.page.posts`           | Get the posts associated with a blog page. Posts have the same content as pages (title, etc).
-`su.page.publishedAt`     | To format in Twig: {% raw %}`{{ su.page.publishedAt|date( "F j, Y" ) }}`{% endraw %}
-`su.page.target`          |
-`su.page.thumbnail`       |
-`su.page.title`           | Does not allow inline editing
-`su.page.topParent`       | Top parent of current page
-`su.page.updatedAt`       | To format in Twig: {% raw %}`{{ su.page.updatedAt|date( "F j, Y" ) }}`{% endraw %}
-`su.page.url`             |
+Item                                   | Description
+---------------------------------------|-------------------------------         
+`su.page("/url")`                      | Get page by path
+`su.page.authors`                      |
+`su.page.breadcrumbs`                  |
+`su.page.children`                     | Get a page's children
+`su.page.children(id)`                 | Get a specific page's children. Inspect the /admin/page/list table to get the id.
+`su.page.content`                      | Allows for things like {% raw %}`{{ child.description ?: child.content\|striptags\|pretty_truncate(200) }}`{% endraw %}
+`su.page.description`                  |
+`su.page.featuredImage`                | `.fit(x,y)`, `.fill(x,y)`, `.ratio(x,y)`
+`su.page.navigationLabel`              |
+`su.page.parent`                       | Parent of current page
+`su.page.posts`                        | Get the posts associated with a blog page. Posts have the same content as pages (title, etc).
+`su.page.publishedAt`                  | To format in Twig: {% raw %}`{{ su.page.publishedAt|date( "F j, Y" ) }}`{% endraw %}
+`su.page.target`                       |
+`su.page.thumbnail`                    |
+`su.page.title`                        | Does not allow inline editing
+`su.page.topParent`                    | Top parent of current page
+`su.page.updatedAt`                    | To format in Twig: {% raw %}`{{ su.page.updatedAt|date( "F j, Y" ) }}`{% endraw %}
+`su.page.url`                          |
+`su.page.urlForCollectionItem( item )` | Retrieve the URL for a collection item's detail page
 
 ## su.request
 

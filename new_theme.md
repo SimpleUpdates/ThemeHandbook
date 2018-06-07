@@ -22,5 +22,6 @@ permalink: /new-theme/
 0. On the right of the control bar above your page dimensions, click the camera icon.
 0. Open your Downloads folder to see the screenshot.
 0. Open [ImageOptim](https://imageoptim.com/mac) and drag your new screenshots into the software.
-0. Observe that your thumbnails' file sizes have been greatly reduced.
-0. Rename the thumbnails to `desktop.png`, `phone.png`, `desktop~asc.png`, etc, as appropriate.
+0. Observe that the screenshots' file sizes have been greatly reduced.
+0. Move the files to the root folder of the appropriate theme (ex. SUThemeGumwood/).
+0. Rename the screenshots to `desktop.png`, `phone.png`, `desktop~asc.png`, etc, as appropriate.

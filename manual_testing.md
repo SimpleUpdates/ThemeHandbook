@@ -15,7 +15,7 @@ When testing a theme manually, here are some things to check.
 
 ### Aesthetics
 
-- Does the theme come with attractive placeholder images?
+- Does the theme come with attractive placeholder images for carousels, image buttons, etc?
 
 ### Flexibility
 

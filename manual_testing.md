@@ -11,6 +11,7 @@ When testing a theme manually, here are some things to check.
 
 - Does all text meet [WCAG standards](http://webaim.org/resources/contrastchecker/)?
 - Does the site function properly when accessed in a browser for the blind or the visually impaired?
+- Does the site use the sitename for logo alt text?
 - Does the site [validate](https://validator.w3.org/)?
 
 ### Aesthetics

@@ -43,6 +43,7 @@ When testing a theme manually, here are some things to check.
 - Are small versions of large images served on mobile?
 - Does content jump around when [connection speed is throttled](https://css-tricks.com/throttling-the-network/)?
 - Does every page and component function properly [at any screen size](https://developers.google.com/web/tools/chrome-devtools/device-mode/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3)?
+- Do retina devices receive images which are twice as wide as the image's rendered display width?
 
 ## Testing in Multiple Browsers Using Browsersync
 

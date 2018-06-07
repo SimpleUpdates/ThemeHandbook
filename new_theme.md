@@ -18,7 +18,7 @@ permalink: /new-theme/
 0. If you're logged in, add `/?_bare` to the end of the url to remove the admin toolbar.
 0. Open Responsive Design Mode (cmd + opt + m).
 0. Above the responsive page frame, enter the page dimensions for your screenshot (for mobile, 320x576; for desktop, 1280x800).
-0. In the control bar above your page dimensions, change
+0. Ensure the control bar above your page's dimensions says "DPR: 1". If it says something else (like "DPR: 2"), click it and select "DPR: 1" instead.
 0. On the right of the control bar above your page dimensions, click the camera icon.
 0. Open your Downloads folder to see the screenshot.
 0. Open [ImageOptim](https://imageoptim.com/mac) and drag your new screenshots into the software.

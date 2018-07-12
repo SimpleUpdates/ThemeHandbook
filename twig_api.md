@@ -49,6 +49,39 @@ Example usage:
 ```
 {% endraw %}
 
+## su.color
+
+### Color Definition Functions
+
+Item                      | Description
+--------------------------|--------------------------------------------------
+`su.color.hsl( h, s, l )` | Create an HSL color object
+
+### Color Channel Functions
+
+Item                           | Description
+-------------------------------|--------------------------------------------------
+`su.color.hue( color )`        | Get a color's hue
+`su.color.saturation( color )` | Get a color's saturation
+
+### Color Operation Functions
+
+Item                                                       | Description
+-----------------------------------------------------------|--------------------------------------------------
+`su.color.saturate( color, amount )`                       | Saturate a color
+`su.color.desaturate( color, amount )`                     | Desaturate a color
+`su.color.lighten( color, amount )`                        | Lighten a color
+`su.color.darken( color, amount )`                         | Darken a color
+`su.color.fadein( color, amount )`                         | Decrease opacity
+`su.color.fadeout( color, amount )`                        | Increase opacity
+`su.color.fade( color, amount )`                           | Set opacity
+`su.color.spin( color, angle )`                            | Spin hue
+`su.color.mix( color1, color2, weight )`                   | Mix two colors
+`su.color.tint( color, weight )`                           | Mix a color with white
+`su.color.shade( color, weight )`                          | Mix a color with black
+`su.color.grayscale( color )`                              | Completely desaturate a color
+`su.color.contrast( color, [dark], [light], [threshold] )` | Select a contrasting color (dark & light default to black & white)
+
 ## su.editable
 
 Item                                        | Description

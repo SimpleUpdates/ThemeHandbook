@@ -190,6 +190,7 @@ Item          | Description
 
 Example usage:
 
+{% raw %}
 ```twig
 <ul>
 {% for link in su.social %}
@@ -197,6 +198,7 @@ Example usage:
 {% endfor %}
 </ul>
 ```
+{% endraw %}
 
 ## su.theme
 

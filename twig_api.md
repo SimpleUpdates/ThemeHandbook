@@ -114,6 +114,7 @@ Item                                   | Description
 `su.page.updatedAt`                    | To format in Twig: {% raw %}`{{ su.page.updatedAt|date( "F j, Y" ) }}`{% endraw %}
 `su.page.url`                          |
 `su.page.urlForCollectionItem( item )` | Retrieve the URL for a collection item's detail page
+`su.page.collectionItem()`             | Retrieve current item on collection item detail page
 
 ## su.request
 

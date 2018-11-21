@@ -37,6 +37,7 @@ Item                                                                          | 
 `su.collection( "id" ).activationDate( "now"\|date( 'Y-m-d' ), "<=" ).find()` | Compare with a date
 `su.collection( "id" ).deactivationDate( "", "=" ).find()`                    | Assert null date
 `su.page.urlForCollectionItem( item )`                                        | Retrieve the URL for an item's detail page
+`su.page.collectionItem()`                                                    | Retrieve current item on collection item detail page
 
 Example usage:
 

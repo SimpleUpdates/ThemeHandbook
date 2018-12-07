@@ -92,6 +92,14 @@ Item                                        | Description
 
 Editable region identifer strings are most comonly named `custom1`, `custom2`, `custom3`, etc. `custom1` almost always coincides with a layout's sidebar. Whenever possible, stick to this naming convention so that a user's page content remains visible when they switch to a layout with a sidebar in another theme.
 
+## su.media
+
+Item                                   | Description
+---------------------------------------|-------------------------------
+`su.media`                             | Array of media items
+`mediaItem.assets`                     | Array of assets
+`asset.url`                            | Asset's URL
+
 ## su.page
 
 Item                                   | Description

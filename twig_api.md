@@ -94,11 +94,12 @@ Editable region identifer strings are most comonly named `custom1`, `custom2`, `
 
 ## su.media
 
-Item                                   | Description
----------------------------------------|-------------------------------
-`su.media`                             | Array of media items
-`mediaItem.assets`                     | Array of assets
-`asset.url`                            | Asset's URL
+Item                                              | Description
+--------------------------------------------------|-------------------------------
+`su.media`                                        | Array of media items
+`su.media.tagGroup("Group Name").tag("Tag Name")` | Array of media items associated with specified tag
+`mediaItem.assets`                                | Array of assets
+`asset.url`                                       | Asset's URL
 
 ## su.page
 

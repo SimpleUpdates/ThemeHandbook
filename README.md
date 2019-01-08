@@ -4,9 +4,21 @@ https://simpleupdates.github.io/ThemeHandbook
 
 Based on the [Primer theme](https://github.com/pages-themes/primer).
 
-## Development Usage
+## Installation
+
+```bash
+gem install bundler jekyll
+```
+
+## Usage
+
+Using host:
 
 `bundle exec jekyll serve`
+
+Using Docker:
+
+`docker-compose up`
 
 [http://localhost:4000](http://localhost:4000)
 

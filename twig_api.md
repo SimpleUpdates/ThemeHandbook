@@ -15,6 +15,16 @@ Item                   | Description
 `.fill(x,y)`           | Crops image to fit the given dimensions. Does not crop if the image is already smaller than the given dimensions.
 `.ratio(x,y)`          | Always crops image to match the ratio of the given dimensions, regardless of image's resolution.
 
+## su.calender
+
+Item                                        | Description
+--------------------------------------------|-----------------------------------
+`su.calendar.sunsetTime`                    | Get sunset time for today
+`su.calendar.sunsetTime( "+1 day" )`        | Get sunset time for tomorrow
+`su.calendar.sunsetTime( "next friday" )`   | Get sunset time for next Friday
+`su.calendar.sunsetTime( "next saturday" )` | Get sunset time for next Saturday
+`su.calendar.sunsetTime|date( "H:i:s" )`    | Format returned time
+
 ## su.collection
 
 Item                                                                          | Description

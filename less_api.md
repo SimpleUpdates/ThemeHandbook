@@ -7,6 +7,10 @@ Item                                           | Description
 -----------------------------------------------|-------------------------
 `@config-themeCustomizerVariableName`          | Access theme customizer variable values. Ex.: `@config-backgroundColor`
 `@su-assetpath`                                | Theme asset folder path. Ex.: `background:url('@{su-assetpath}/image.png');`
+`@su-privatelabel`                             | Private label
+`@su-config-[KEY]-url`                         | Image & file field URLs
+`@su-config-[KEY]-focalpoint-x`                | Image field focalpoint X
+`@su-config-[KEY]-focalpoint-y`                | Image field focalpoint Y
 `.theme-image-fit(@which; @width; @height;)`   | Path to image resized to fit within provided dimensions.
 `.theme-image-fill(@which; @width; @height;)`  | Path to image cropped to fill provided dimensions. Won't crop small images.
 `.theme-image-ratio(@which; @width; @height;)` | Path to image cropped to match provided ratio. Will crop small images.

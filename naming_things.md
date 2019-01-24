@@ -50,14 +50,15 @@ Less variables defined in components, on the other hand, should be named in refe
 
 ## Naming CSS Classes
 
-Most CSS class names should be hyphenated. One important exception is a component's base classname, which should take the form
-of `.layer-componentName` in order to mirror the component's file names.
+Most CSS class names should be hyphenated. The exceptions to this rule are classes related to a specific component. A
+component's basename should take the form of `.layer-componentName` in order to mirror the component's file name. Its
+internal classes should be of the form `.layer-componentName__subclass`.
 
-| Yes                | No
-|--------------------|-----------------
-| `.class-name`      | `@className`
-| `.organism-navBar` | `@class_name`
-|                    | `@ClassName`
+| Yes                               | No
+|-----------------------------------|-----------------
+| `.class-name`                     | `@className`
+| `.organism-navBar`                | `@class_name`
+| `.molecule-contentHeader__byline` | `@ClassName`
 
 ## Naming Components
 

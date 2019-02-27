@@ -31,6 +31,26 @@ modify.
 - Components help with keeping things DRY ([Don't Repeat Yourself](http://programmer.97things.oreilly.com/wiki/index.php/Don%27t_Repeat_Yourself)) by eliminating code duplication, thereby increasing theme maintainability.
 - Source complexity is much more easily controled when everything related to a given component is easily viewed at the same time. After consolidating all the CSS for a given component into one Less file, unneeded complexity and duplication which was almost impossible to detect and safely remove often becomes painfully obvious and trivial to remove.
 
+But what about trivial components, like headings, hard rules, and links? Is it worth it to break out the styling for these components into separate files instead of simply keeping the styles in global.less?
+
+There are still a couple of good reasons to continue break out these trivial components:
+
+1. **Readability.** Keeping each component in its own file means generally shorter files (global.less used to get quite long). Also, when each component has its own file, reasoning about that component is easier, not only because the file is shorter, but also because you can see all the code for that component in one place. Before we did this, code that affected a single thing (component, loosely) would end up getting scattered throughout global.less, and it was often hard to have any kind of confidence that you were looking at everything pertaining to it.
+
+2. **Maintainability.** When each component has its own file, it makes it much easier to ensure that each component is properly namespaced (meaning its outer-most element has a class with the component's name). When a component is properly namespaced, it means you can be more confident that all the code in that file only affects that one component, and that changes you make to that component's styling won't leak out and touch other components that haven't explicitly used that component.
+
+So the reason even these trivial components have their own style files is to make it very clear what they are (trivial components) and very easy to verify that we aren't doing anything that would impair readability or maintainability.
+
+For instance, say you had both `hr` (often the rule component) and `h1`-`h6` (often the heading component) in global.less. You could easily see styling be written like this:
+
+`hr, h1, h2, h3, h4, h5, h6 { border-bottom: 1px solid red; }`
+
+Then later you could see more styling being added to the headings in another place in global.less:
+
+`h1 { font-weight: bold; }`
+
+This would already start reducing the readability of the code by making it unclear where to go to see all the styling for headings. Keeping even styling for trivial components in separate files guards against such regressions.
+
 ## File Structure
 
 Each component has a name in the form of `.layer-componentIdentifier`. (For more information on naming components, see 

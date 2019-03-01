@@ -15,6 +15,15 @@ In addition, you'll probably also find it useful to reference the [Twig API](htt
 docs for more detailed information on everything the SUFramework Twig API has to offer, as well 
 as the official [Twig Documentation](https://twig.symfony.com/doc/2.x/).
 
+## [Accordion](https://codepen.io/narthur/pen/NzLLvE)
+
+<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="html,result" data-user="narthur" data-slug-hash="NzLLvE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Accordion">
+  <span>See the Pen <a href="https://codepen.io/narthur/pen/NzLLvE/">
+  Accordion</a> by Narthur (<a href="https://codepen.io/narthur">@narthur</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 ## [su-narthur/videos.twig](https://gist.github.com/su-narthur/1d8764e8dc1b76d67a0114989bca456b)
 
 Display three YouTube videos on your home page from your media manager, filtered by tag.

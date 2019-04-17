@@ -17,6 +17,8 @@ Item                   | Description
 Item                   | Description
 -----------------------|--------------
 `.fit(x,y)`            | Resizes image down to fit the given dimensions. Does not upscale.
+`.fit(x)`              | Constrain only width
+`.fit(null,y)`         | Constrain only height
 `.fill(x,y)`           | Crops image to fit the given dimensions. Does not crop if the image is already smaller than the given dimensions.
 `.ratio(x,y)`          | Always crops image to match the ratio of the given dimensions, regardless of image's resolution.
 `.focalPoint`          | `.focalPoint.x`, `.focalPoint.y`; returns percent integer without the `%` sign.

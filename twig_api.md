@@ -5,13 +5,13 @@ permalink: /twig-api/
 
 ## General
 
-Item                                                       | Description
------------------------------------------------------------|--------------
-`su.calendar.events`                                       | `event.id`, `event.title`, `event.description`, `event.start`, `event.end`, `event.location`, `event.isAllDay`
-`su.content`                                               |
-`su.footer`                                                |
-`su.misc.privatelabel`                                     | Retrieve site's private label
-{% raw %}`{{ markdown_content|markdown|raw }}`{% endraw %} | The `markdown` filter allows you to convert MarkDown to HTML. It's important to output the resulting output using the `raw` filter to output the resulting HTML; otherwise it will be escaped.
+Item                                  | Description
+--------------------------------------|--------------
+`su.calendar.events`                  | `event.id`, `event.title`, `event.description`, `event.start`, `event.end`, `event.location`, `event.isAllDay`
+`su.content`                          |
+`su.footer`                           |
+`su.misc.privatelabel`                | Retrieve site's private label
+`{{ markdown_content\|markdown\|raw }}` | The `markdown` filter allows you to convert MarkDown to HTML. It's important to output the resulting output using the `raw` filter to output the resulting HTML; otherwise it will be escaped.
 
 ## Images
 

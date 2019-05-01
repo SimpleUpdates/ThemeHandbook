@@ -11,7 +11,7 @@ Item                                  | Description
 `su.content`                          |
 `su.footer`                           |
 `su.misc.privatelabel`                | Retrieve site's private label
-`{{ markdown_content\|markdown\|raw }}` | The `markdown` filter allows you to convert MarkDown to HTML. It's important to output the resulting output using the `raw` filter to output the resulting HTML; otherwise it will be escaped.
+`{{&nbsp;markdown_content\|markdown\|raw&nbsp;}}` | The `markdown` filter allows you to convert MarkDown to HTML. It's important to output the resulting output using the `raw` filter to output the resulting HTML; otherwise it will be escaped.
 
 ## Images
 

@@ -50,9 +50,7 @@ Less variables defined in components, on the other hand, should be named in refe
 
 ## Naming CSS Classes
 
-Most CSS class names should be hyphenated. The exceptions to this rule are classes related to a specific component. A
-component's basename should take the form of `.layer-componentName` in order to mirror the component's file name. Its
-internal classes should be of the form `.layer-componentName__subclass`.
+Most classes should be named according to the component they are a part of. A component's basename should take the form of `.layer-componentName` in order to mirror the component's file name. Its internal classes should be of the form `.layer-componentName__subclass`. Any class which does not pertain to a specific component should be hyphenated, though the need for its existense at all should be questioned.
 
 | Yes                               | No
 |-----------------------------------|-----------------
@@ -62,14 +60,15 @@ internal classes should be of the form `.layer-componentName__subclass`.
 
 ## Naming Components
 
-Components are grouped into three distinct layers:
+Components are grouped into four distinct layers:
 
-- **Atoms:** "The foundational building blocks that comprise all our user interfaces. These atoms include basic HTML elements like 
-form labels, inputs, buttons, and others that can’t be broken down any further without ceasing to be functional."
-- **Molecules:** "Relatively simple groups of UI elements functioning together as a unit. For example, a form label, search input, 
-and button can join together to create a search form molecule."
+- **Atoms:** "The foundational building blocks that comprise all our user interfaces. These atoms include basic HTML elements 
+like form labels, inputs, buttons, and others that can’t be broken down any further without ceasing to be functional."
+- **Molecules:** "Relatively simple groups of UI elements functioning together as a unit. For example, a form label, search 
+input, and button can join together to create a search form molecule."
 - **Organisms:** "Relatively complex UI components composed of groups of molecules and/or atoms and/or other organisms. These 
 organisms form distinct sections of an interface."
+- **Layouts:** "Place components within a layout and demonstrate the design’s underlying content structure."
 
 (Definitions taken from *Atomic Design*, by Brad Frost, [chapter 2](http://atomicdesign.bradfrost.com/chapter-2/).)
 
@@ -80,9 +79,10 @@ A component's name takes the form of its layer, followed by a hyphin, followed b
 | `atom-button`       | `atom-Button`
 | `molecule-branding` | `branding`
 | `organism-navBar`   | `org-nav-bar`
+| `layout-default`    | `default`
 
 A component's name is used in three primary places: its Twig partial filename, its Less file filename, and its primary CSS
-class. All three should be identical.
+class. All three should be identical, with the possible exception of legacy layout Twig files.
 
 | Yes                                                                | No
 |--------------------------------------------------------------------|------------------------------------------------------

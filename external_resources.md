@@ -220,6 +220,7 @@ permalink: /external-resources/
 - [Attest](https://www.askattest.com/) - "Send surveys to any audience and understand what they think in real-time"
 - [Criticue](http://www.criticue.com/) - "Your web projects. Peer reviewed. The more you contribute the more feedback you receive."
 - [Dovetail](https://dovetailapp.com/) - "Organize qualitative research data, analyze it collaboratively, and share insights with your team. Understand what your users need and build a better product with Dovetail."
+- [Smartlook](https://www.smartlook.com) - "Analyze user behavior in ways never possible before. Smartlook records users on websites and in iOS & Android apps."
 - [Fullstory](https://www.fullstory.com/features/) - "Search your customer experience like you search the web."
 - [Lookback](https://lookback.io/)
 - [Silverback 3](https://silverbackapp.com/) - "Silverback 3 is the no-nonsense usability testing app for Mac. Get set up and start enjoying straightforward usability testing in seconds." Free version available.

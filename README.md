@@ -1,4 +1,4 @@
-# ThemeHandbook
+# ThemeHandbook -- DO NOT DELETE UNTIL DOCUMENTATION HAS BEEN TRANSFERRED TO SUF WIKI
 
 https://simpleupdates.github.io/ThemeHandbook
 
